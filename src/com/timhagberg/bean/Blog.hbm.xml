@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+       "-//Hibernate/Hibernate Mapping DTD//EN"
+       "http://www.jboss.org/dtd/hibernate/hibernate-mapping-3.0.dtd">
+       
+<hibernate-mapping>
+	<class name="com.timhagberg.bean.BlogBean" table="blog">
+		<id name="blogId" type="int" column="blogId">
+			<generator class="increment"/>
+		</id>
+		<property name="blogTitle" type="string" column="blogTitle" />
+		<property name="blogBody" type="string" column="blogBody" />
+		<property name="blogDate" type="date" column="blogDate" />
+	</class>
+</hibernate-mapping>

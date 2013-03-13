@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+       "-//Hibernate/Hibernate Mapping DTD//EN"
+       "http://www.jboss.org/dtd/hibernate/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.timhagberg.bean.ReferenceBean" table="reference">
+		<id name="referenceId" type="int" column="referenceId">
+			<generator class="increment"/>
+		</id>
+		<property name="referenceName" type="string" column="referenceName"/>
+		<property name="referenceBody" type="string" column="referenceBody"/>
+	</class>
+</hibernate-mapping>

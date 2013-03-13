@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+       "-//Hibernate/Hibernate Mapping DTD//EN"
+       "http://www.jboss.org/dtd/hibernate/hibernate-mapping-3.0.dtd">
+       
+<hibernate-mapping>
+	<class name="com.timhagberg.bean.WorkExampleBean" table="workExample">
+		<id name="workId" type="int" column="workId">
+			<generator class="increment" />
+		</id>
+		<property name="workName" type="string" column="workName"/>
+		<property name="workDescription" type="string" column="workDescription" />
+		<property name="workImageLocation" type="string" column="workImageLocation" />
+		<property name="workVideoLocation" type="string" column="workVideoLocation" />
+		<property name="workDownloadLocation" type="string" column="workDownloadLocation" />
+	</class>
+</hibernate-mapping>

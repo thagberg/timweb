@@ -1,0 +1,28 @@
+I am a 23 year-old Senior Airman in the United States Air Force,
+working as a Java Enterprise Web Developer for a training records
+management system.  I am stationed in Montgomery, Alabama with my
+wife Kailey, golden retriever-lab mix Roxy, and American Shorthair
+cat Belmont.
+
+I have been working on enterprise software systems for around
+3-and-a-half years, and have found a lot of job satisfaction
+from it.  I also dabble in game programming as a hobby, and
+most enjoy working on game engine modules, such as graphics
+and physics engines.  As a "technology enthusiast," I often
+spend hours getting lost in studying and coding with new
+languages or APIs.  While I am most comfortable with the Java
+programming language, as it is the language in which I am
+most experienced, my favorite languages to code in are C and
+C++.
+
+In addition to being a developer, I have also had the pleasure
+of being a Java trainer for over two years.  This has been a
+role I have thoroughly enjoyed. Not only does it allow me to
+help shape the development of junior developers, it makes
+me a stronger developer myself, as I have the opportunity to
+break down concepts I often take for granted and challenge
+myself to always ensure I am qualified to train these new
+developers.
+
+When I don't have my nose in code or technical manuals, I am
+also a gamer, reader, and all-too-frequent Internet stumbler.

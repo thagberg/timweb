@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//ApacheSoftwareFoundation//DTDTilesConfiguration2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+	
+<tiles-definitions>
+	<definition name="template"
+		template="/jsp/template.jsp">
+		<put-attribute name="top"
+			value="/jsp/menu.jsp" />
+		<put-attribute name="footer"
+			value="/jsp/footer.jsp" />
+	</definition>
+	
+	<definition name="home" extends="template">
+		<put-attribute name="content"
+			value="/jsp/home.jsp" />
+	</definition>
+	
+	<definition name="blog" extends="template">
+		<put-attribute name="content"
+			value="/jsp/blog.jsp" />
+	</definition>
+	
+	<definition name="resume" extends="template">
+		<put-attribute name="content"
+			value="/jsp/resume.jsp" />
+	</definition>
+	
+	<definition name="references" extends="template">
+		<put-attribute name="content"
+			value="/jsp/references.jsp" />
+	</definition>
+	
+	<definition name="workexamples" extends="template">
+		<put-attribute name="content"
+			value="/jsp/workexamples.jsp" />
+	</definition>
+	
+	<definition name="about" extends="template">
+		<put-attribute name="content"
+			value="/jsp/about.jsp" />
+	</definition>
+	
+	<definition name="contact" extends="template">
+		<put-attribute name="content"
+			value="/jsp/contact.jsp" />
+	</definition>
+</tiles-definitions>

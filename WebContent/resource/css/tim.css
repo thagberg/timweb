@@ -1,0 +1,160 @@
+@CHARSET "UTF-8";
+
+h3 {
+	font-family: Tahoma, Charcoal, sans-serif;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+p {
+	font-family: Tahoma, Charcoal, sans-serif;
+	font-size: 100%;
+}
+
+.pageHeader {
+	text-align: center;
+}
+
+.ui-button {
+	margin: 0;
+}
+
+.ui-widget-content {
+	background: none;
+	background-color: green;
+}
+
+.blogPost {
+	background: none;
+	background-color: #E0EEEE;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buttons {
+	clear: both;
+	background: none;
+	background-color: #00628B;
+}
+
+.buttons ul {
+	list-style-type: none;
+}
+
+.buttons li {
+	display: inline;
+}
+
+.top {
+	background: none;
+	background-color: #E0ECF8;
+	border: 1px solid transparent;
+}
+
+.content {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3em;
+	background: none;
+	background-color: white;
+	min-height: 500px;
+	height: 100%;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-left-width: 3px;
+	border-right-width: 3px;
+	border-color: #00628B;
+	border-top: 1px solid transparent;
+}
+
+.footer {
+	background: none;
+	background-color: #00628B;
+	height: 60px;
+	width: 100%;
+}
+
+.footerNote {
+	padding-top: 4px;
+	text-align: center;
+	font-family: Tahoma, Charcoal, sans-serif;
+	color: #E0ECF8;
+}
+
+.footerNote A:link {
+	color: #B4CFEC;
+}
+
+.footerNote A:hover {
+	color: #FFFF9D;
+}
+
+.footerNote A:visited {
+	color: #E9CFEC
+}
+
+.blogTitle {
+	font-family: Tahoma, Charcoal, sans-serif;
+	cursor: pointer;
+}
+
+.blogBody {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.feed {
+	float: right;
+	position: relative;
+	top: 10%;
+}
+
+#topMenu {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+#logo {
+	float: left;
+}
+
+#welcomeMessage{
+	font-size: 200%;
+	font-style: italic;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#contactInfo{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 200%;
+}
+
+#resumeContent{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+#resumeContent ul{
+	line-height: 200%;
+}
+
+#referenceContent {
+	line-height: 125%;
+}
+
+#aboutContent {
+	line-height: 125%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	background: none;
+	background-color: #E0ECF8;
+}
